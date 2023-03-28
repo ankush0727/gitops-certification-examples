@@ -3,5 +3,7 @@ namePrefix: ""
 resources:
 - crds.yaml
 - operator.yaml
+- elastic_search.yaml
+- kibana.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
